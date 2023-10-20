@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RajeshDatePicker_Example' do
+  pod 'RajeshDatePicker', :path => '../'
+
+  target 'RajeshDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
